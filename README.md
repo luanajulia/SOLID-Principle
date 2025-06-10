@@ -1,29 +1,29 @@
-# **Sistema de Gerenciamento de Pedidos**
+# **Order Management System**
 
-## **Descrição**
+## **Description**
 
-Este projeto implementa um sistema de gerenciamento de pedidos que simula um fluxo de pedidos de clientes, incluindo cálculo de totais, notificações, pagamento e atualização de status.
+This project implements an order management system that simulates a flow of customer orders, including calculation of totals, notifications, payment and status updates.
 
 ---
 
-## **Funcionalidades**
+## **Features**
 
-- **Cadastro de Clientes e Itens**: Gerencia informações de clientes e produtos.
-- **Gestão de Pedidos**: Suporte a pedidos para delivery e retirada.
-- **Sistema de Pagamento**: Simulação de processamento de pagamentos.
-- **Notificações**: Envio de notificações por e-mail e SMS.
-- **Atualização de Status**: Rastreamento e notificação do status do pedido.
+- **Customer and Item Registration**: Manages customer and product information.
+- **Order Management**: Support for delivery and pick-up orders.
+- **Payment System**: Simulation of payment processing.
+- **Notifications**: Sending notifications by email and SMS.
+- **Status Update**: Tracking and notification of order status.
 ---
 
-## **Tecnologias Utilizadas**
+## **Technologies Used**
 
 - **Python 3.10+**
 - Design Patterns: _Factory Method, Template, Strategy, Facade, Observer_.
-- Princípios **SOLID**.
+- **SOLID** Principles.
 
 ---
 
-## **Estrutura do Projeto**
+## **Project Structure**
 
 ```
 .
@@ -50,33 +50,26 @@ Este projeto implementa um sistema de gerenciamento de pedidos que simula um flu
 
 ---
 
-## **Como Executar**
+## **How ​​to Run**
 
-1. Acesse o arquivo `main.py`.
-2. Execute o programa:
-   ```bash
-   python main.py
-   ```
-
----
-
-## **Exemplo de Uso**
-
-- **Cadastrar Cliente e Itens**:
-  Crie um cliente e adicione itens ao pedido.
-- **Criar Pedido**:
-  Escolha entre _delivery_ ou _retirada_.
-- **Efetuar Pagamento**:
-  Simule pagamentos via Pix ou Cartão.
-- **Receber Notificações**:
-  Clientes recebem notificações do status do pedido.
+1. Access the `main.py` file.
+2. Run the program:
+```bash
+python main.py
+```
 
 ---
 
-## **Autoria**
+## **Example of Use**
 
-Projeto desenvolvido como estudo dos princípios **SOLID** e padrões de design para organização de software escalável e modular.
+- **Register Customer and Items**:
+Create a customer and add items to the order.
+- **Create Order**:
+Choose between _delivery_ or _pickup_.
+- **Make Payment**:
+Simulate payments via Pix or Card.
+- **Receive Notifications**:
+Customers receive notifications about the order status.
 
-Feito pela Escola de Programação da Alura!
+---
 
-Fique à vontade para contribuir! 🎉

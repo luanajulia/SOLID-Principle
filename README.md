@@ -1,75 +1,86 @@
-# **Order Management System**
+# **Sistema de Gerenciamento de Pedidos**
 
-## **Description**
+## **Descrição**
 
-This project implements an order management system that simulates a flow of customer orders, including calculation of totals, notifications, payment and status updates.
+Este projeto implementa um sistema de gerenciamento de pedidos que simula o fluxo de pedidos de clientes, incluindo o cálculo de totais, notificações, pagamentos e atualizações de status.
 
 ---
 
-## **Features**
+## **Funcionalidades**
 
-- **Customer and Item Registration**: Manages customer and product information.
-- **Order Management**: Support for delivery and pick-up orders.
-- **Payment System**: Simulation of payment processing.
-- **Notifications**: Sending notifications by email and SMS.
-- **Status Update**: Tracking and notification of order status.
+- **Cadastro de Clientes e Itens**: Gerencia informações de clientes e produtos.
+
+- **Gerenciamento de Pedidos**: Suporte para pedidos de entrega e retirada.
+
+- **Sistema de Pagamento**: Simulação do processamento de pagamentos.
+
+- **Notificações**: Envio de notificações por e-mail e SMS.
+
+- **Atualização de Status**: Rastreamento e notificação do status do pedido.
+
 ---
 
-## **Technologies Used**
+## **Tecnologias Utilizadas**
 
 - **Python 3.10+**
-- Design Patterns: _Factory Method, Template, Strategy, Facade, Observer_.
-- **SOLID** Principles.
+
+- Padrões de Projeto: _Factory Method, Template, Strategy, Facade, Observer_.
+
+- Princípios **SOLID**.
 
 ---
 
-## **Project Structure**
+## **Estrutura do Projeto**
 
 ```
+
 .
 ├── cliente.py
-├── item.py
+├──item.py
 ├── main.py
-├── notificacao/
-│   ├── notificacao.py
-│   ├── notificacao_email.py
-│   ├── notificacao_sms.py
-│   └── notificacao_facade.py
+├── notificação/
+│ ├── notificacao.py
+│ ├── notificacao_email.py
+│ ├── notificação_sms.py
+│ └── notificacao_facade.py
 ├── observador/
-│   └── observador_status.py
+│ └── coletor_status.py
 ├── pagamento/
-│   ├── pagamento.py
-│   ├── pagamento_cartao.py
-│   └── pagamento_pix.py
+│ ├── pagamento.py
+│ ├── pagamento_cartao.py
+│ └── pagamento_pix.py
 ├── pedido/
-│   ├── pedido.py
-│   ├── pedido_delivery.py
-│   └── pedido_retirada.py
+│ ├── pedido.py
+│ ├── pedido_delivery.py
+│ └── pedido_retirada.py
 └── README.md
 ```
 
 ---
 
-## **How ​​to Run**
+## **Como executar**
 
-1. Access the `main.py` file.
-2. Run the program:
+1. Acesse o arquivo `main.py`.
+
+2. Execute o programa:
 ```bash
 python main.py
 ```
 
 ---
 
-## **Example of Use**
+## **Exemplos de uso**
 
-- **Register Customer and Items**:
-Create a customer and add items to the order.
-- **Create Order**:
-Choose between _delivery_ or _pickup_.
-- **Make Payment**:
-Simulate payments via Pix or Card.
-- **Receive Notifications**:
-Customers receive notifications about the order status.
+- **Cadastrar cliente e itens**:
+Crie um cliente e adicione itens ao pedido.
+
+- **Criar pedido**:
+Escolha entre _entrega_ ou _retirada_.
+
+- **Efetuar pagamento**:
+Simule pagamentos via Pix ou cartão.
+
+- **Receber notificações**:
+Os clientes recebem notificações sobre o status do pedido.
 
 ---
-
